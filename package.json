@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "backend server",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drago-codes-21/mern-social-media-app.git"
+  },
+  "keywords": [
+    "social-media"
+  ],
+  "author": "Sarthak D. Nalawade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drago-codes-21/mern-social-media-app/issues"
+  },
+  "homepage": "https://github.com/drago-codes-21/mern-social-media-app#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "helmet": "^5.0.2",
+    "mongoose": "^6.2.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
